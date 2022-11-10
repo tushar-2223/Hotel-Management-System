@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cookie&family=Poppins:wght@600&display=swap');
+
+:root {
+    --bg-text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
+    --bg-box-shadow: 0px 0px 20px 6px rgb(0 0 0 / 34%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: var(--bg-text-shadow); */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.carousel_section{
+    box-shadow: var(--bg-box-shadow);
+}
+/* side photo css */
+section {
+    height: 100%;
+    width: 50%;
+}
+
+.carousel-image {
+    height: 100vh;
+}
+
+.carousel-inner::after {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.284);
+}
+
+/* login css */
+
+.logo {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
+}
+
+.logo .bluebirdlogo {
+    height: 100%;
+}
+
+.logo p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(66, 68, 74);
+    text-shadow: var(--bg-text-shadow);
+}
+
+.auth_container {
+    height: 80%;
+    margin: 50px;
+}
+
+#Log_in {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role_btn {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.role_btn .btns {
+    height: 40px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(93, 102, 116, 0.318);
+}
+
+.role_btn .btns:hover {
+    background-image: linear-gradient(90deg, rgba(76, 185, 236, 0.527), rgba(0, 30, 255, 0.456));
+    transition: ease-in-out;
+}
+
+.authsection {
+    width: 70%;
+    margin: 10px;
+    display: none;
+    text-align: center;
+    animation: screen_animation .4s;
+}
+/* toggle display */
+.user_login.active{
+    display: block;
+}
+.employee_login.active{
+    display: block;
+}
+
+.form-floating {
+    margin: 15px 0;
+} 
+
+.auth_btn {
+    padding: 15px 30px;
+    border: unset;
+    border-radius: 15px;
+    background-color: rgba(118, 141, 176, 0.318);
+    z-index: 1;
+    position: relative;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.auth_btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(76, 185, 236, 0.527), rgba(0, 30, 255, 0.456));
+    transition: all 250ms
+}
+
+.auth_btn:hover {
+    color: #ffffff;
+}
+
+.auth_btn:hover::before {
+    width: 100%;
+}
+
+.footer_line{
+    margin: 20px 0;
+}
+
+.page_move_btn{
+    color: rgba(0, 0, 255, 0.599);
+    cursor: pointer;
+}
+.page_move_btn:hover{
+    color: blue;
+}
+
+/* signup */
+#sign_up{
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_signup{
+    width: 70%;
+    text-align: center;
+    animation: screen_animation .4s;
+}
+
+/* animation frame */
+@keyframes screen_animation {
+    0%{
+        transform: translateX(50px);
+    }
+}

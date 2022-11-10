@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cookie&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400&display=swap');
+
+:root {
+    --bg-text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
+    --bg-box-shadow: 0px 0px 20px 6px rgba(26, 30, 164, 0.31);
+}
+*::-webkit-scrollbar{
+    width: .4rem;
+}
+*::-webkit-scrollbar-track{
+    background: rgb(6, 6, 44);
+}
+*::-webkit-scrollbar-thumb{
+    background: #0040ff;
+}
+
+body {
+    /* background-color: #ffff; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: var(--bg-text-shadow); */
+}
+
+.databox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.databox .box{
+    height: 200px;
+    width: 380px;
+    margin: 20px 0;
+    background-color: #ccdff4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.databox .box h1{
+    font-size: 80px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(20, 20, 83);
+}
+.box:nth-child(1){
+    border-bottom: 8px solid red;
+}
+.box:nth-child(2){
+    border-bottom: 8px solid rgba(0, 255, 68, 0.814);
+}
+.box:nth-child(3){
+    border-bottom: 8px solid rgb(51, 0, 255);
+}
+
+/* chart */
+.chartbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profitchart{
+    width: 660px;
+    background-color: #ccdff4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bookroomchart{
+    width: 330px;
+    padding:10px 80px;
+    background-color: #ccdff4;
+    border-radius: 10px;
+}
+
+
