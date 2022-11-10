@@ -1,4 +1,4 @@
-# hotel_management_system
+# hotel management system
 
 Simple hotel booking website with content management system. Users can book rooms for specific date. Admin can create, update, delete a hotel and its rooms. Admin can manage everything in the app.
 
