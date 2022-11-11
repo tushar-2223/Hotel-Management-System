@@ -23,7 +23,7 @@ BOOTSTRAP
 After clicking database click import and select the file "bluebirdhotel.sql"
 Open the link "localhost/hotel_management_system/"
 Now register and login
-``
+```
 
 ## Screenshot of hotel management system
 
