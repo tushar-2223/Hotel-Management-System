@@ -61,6 +61,15 @@ i{
     background-color: rgba(0, 17, 255, 0.733);
 }
 
+.exportexcel{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(47, 255, 47);
+    border: none;
+    border-radius: 50%;
+    /* padding: 0 40px; */
+}
+
 /* guest panel */
 
 #guestdetailpanel{
