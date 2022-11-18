@@ -283,6 +283,9 @@ include '../config.php';
     <div class="searchsection">
         <input type="text" name="search_bar" id="search_bar" placeholder="search..." onkeyup="searchFun()">
         <button class="adduser" id="adduser" onclick="adduseropen()"><i class="fa-solid fa-bookmark"></i> Add</button>
+        <form action="./exportdata.php" method="post">
+            <button class="exportexcel" id="exportexcel" name="exportexcel" type="submit"><i class="fa-solid fa-file-arrow-down"></i></button>
+        </form>
     </div>
 
     <div class="roombooktable" class="table-responsive-xl">
