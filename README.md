@@ -34,6 +34,10 @@ Now register and login
 Email : Admin@gmail.com
 Password : 1234
 ```
+
+======  Video link ======== >>>>
+<a href="https://www.youtube.com/watch?v=rKwBxxVXWkM&t=7s">click here..</a>
+
 <p align="center">
 <img src = "redmiimg/login.jpg" height="350" width="700">
 </p>
