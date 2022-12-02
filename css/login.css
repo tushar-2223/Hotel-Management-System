@@ -192,3 +192,25 @@ section {
         transform: translateX(50px);
     }
 }
+
+
+
+/* responsive stuff */
+
+@media(max-width: 30rem){
+    .carousel_section{
+        display: none;
+    }
+    #auth_section{
+        width: 100%;
+    }
+    .auth_container
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #Log_in .role_btn .btns{
+        width: 90px;
+    }
+}
