@@ -317,3 +317,87 @@ font-size: 30px;
 #contactus .createdby{
     color: white;
 }
+
+/* responsive stuff */
+
+@media(max-width: 30rem){
+    nav{
+        justify-content: center;
+        position: relative;
+        background-color: #96a8f88c;
+    }
+    nav ul{
+        display: none;
+    }
+    #firstsection{
+        height: 50vh;
+        text-align: center;
+    }
+    #firstsection .carousel-inner{
+        height: 50vh;
+    }
+    #firstsection .carousel-inner::after{
+        height: 50vh;
+    }
+    #firstsection .carousel-item img{
+        height: 50vh;
+    }
+    #firstsection .welcomeline{
+        height: 50vh;
+        
+    }
+    #firstsection .welcometag{
+        text-align: center;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #secondsection{
+        height: auto;
+    }
+    #secondsection{
+        height: 240vh;
+    }
+    #secondsection img{
+        display: none;
+    }
+    .ourroom{
+        top: 30px;
+        height: auto;
+    }
+    .roomselect{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .roomselect .roombox{
+        width: 75%;
+    }
+
+
+    #thirdsection{
+        height: 100vh;
+    }
+    .facility{
+        height: 70%;
+        flex-wrap: wrap;
+    }
+    .facility .box{
+        margin: 0;
+        padding: 0;
+        height: 55%;
+        width: 50%; 
+    }
+
+    .facility .box h2{
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+    
+    .box:nth-child(5){
+        display: none;
+    }
+
+    #contactus{
+        padding: 0 30px;
+    }
+}
