@@ -31,6 +31,11 @@ if($usermail == true){
 </head>
 
 <body>
+    <!-- mobile view -->
+    <div id="mobileview">
+        <h5>Admin panel doesn't show in mobile view</h4>
+    </div>
+  
     <!-- nav bar -->
     <nav class="uppernav">
         <div class="logo">
