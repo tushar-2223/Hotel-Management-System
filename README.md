@@ -30,7 +30,6 @@ Open the link "localhost/Hotel-Management-System/"
 Now register and login
 ```
 
-## Screenshot of hotel management system
 
 ### login page
 
