@@ -17,7 +17,7 @@ PHP
 BOOTSTRAP 
 ```
 
-## REQUIREMENTS:
+## Run Project :
 
 ```sh
 1 Download & Install: XAMPP in C:\xampp (default)
