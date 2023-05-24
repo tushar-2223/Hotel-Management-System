@@ -7,7 +7,7 @@ Simple hotel booking website with content management system. Users can book room
 <a href="https://www.youtube.com/watch?v=rKwBxxVXWkM&t=7s">click here..</a>
 
 
-## Technology we used 
+## Tech Stack 
 
 ```sh
 HTML
