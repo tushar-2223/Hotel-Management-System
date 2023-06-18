@@ -152,7 +152,7 @@ CREATE TABLE `signup` (
 --
 
 INSERT INTO `signup` (`UserID`, `Username`, `Email`, `Password`) VALUES
-(1, 'Tushar Pankhaniya', 'tusharpankhaniya2202@gmail.com', '123'),
+(1, 'Tushar Pankhaniya', 'tusharpankhaniya2202@gmail.com', '123');
 
 -- --------------------------------------------------------
 
