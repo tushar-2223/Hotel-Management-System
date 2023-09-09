@@ -1,11 +1,10 @@
 # Hotel-Management-System
 
-Simple hotel booking website with content management system. Users can book rooms for specific date. Admin can create, update, delete rooms details. Admin can manage everything in the app.
+Simple hotel booking website with content management system. Users can book rooms for specific dates. Admin can create, update, and delete room details. Admin can manage everything in the app.
 
 ## Video link
 
-<a href="https://www.youtube.com/watch?v=rKwBxxVXWkM&t=7s">click here..</a>
-
+<a href="https://www.youtube.com/watch?v=rKwBxxVXWkM">click here..</a>
 
 ## Tech Stack 
 
@@ -26,7 +25,7 @@ BOOTSTRAP
 4 Open the link "localhost/phpmyadmin/"
 5 Click on new at sidebar and create a database name "bluebirdhotel"
 After clicking database click import and select the file "bluebirdhotel.sql"
-Open the link "localhost/Hotel-Management-System/"
+Open the link "http://localhost/Hotel-Management-System/" or "http://localhost/Hotel-Management-System-main/"
 Now register and login
 ```
 
