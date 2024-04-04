@@ -441,7 +441,7 @@
 		<h1>Invoice</h1>
 		<address>
 			<p>HOTEL BLUE BIRD,</p>
-			<p>(+91) 9313346569</p>
+			<p>(+91) 0000000000</p>
 		</address>
 		<span><img alt="" src="../image/logo.jpg"></span>
 	</header>
@@ -514,7 +514,7 @@
 	<aside>
 		<h1><span>Contact us</span></h1>
 		<div>
-			<p align="center">Email :- pankhaniyatushar9@gmail.com || Web :- www.bluebird.com || Phone :- +91 9313346569 </p>
+			<p align="center">Email :- ayushshaw127@gmail.com || Web :- www.bluebird.com || Phone :- +91 0000000000 </p>
 		</div>
 	</aside>
 

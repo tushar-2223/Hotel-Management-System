@@ -18,7 +18,9 @@ body {
 .uppernav{
     height: 50px;
     /* background-color: rgb(78, 94, 112); */
-    background-image: linear-gradient(90deg, #70b7e6bc, #0000ffaa);
+    /* background-image: linear-gradient(90deg, #2563eb, #0000ffaa); */
+    /* background-color: #0e7490; */
+    border-bottom: 1px solid #d1d5db;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,11 +54,11 @@ body {
 
 
 .sidenav {
-    position: absolute;
-    background-color: #0e1b3d;
-    width: 18%;
-    height: 100%;
-    color: #ffffff;
+    /* background-color: #0e1b3d; */
+    width: 250px;
+    /* color: #ffffff; */
+    padding: 16px;
+    border-right: 1px solid #d1d5db;
 }
 ul li{
     display: flex;
@@ -65,27 +67,42 @@ ul li{
     padding: 0px 10px;
     height: 50px;
     cursor: pointer;
-    margin-bottom: 5px;
-}
-ul li:hover{
-    background-color: #141dd498;
+    font-size: 14px;
+    border-radius: 0px 6px 6px 0px;
+    /* margin-bottom: 5px; */
 }
 ul li.active{
-    background-color: #141dd498;
+    background-color: #0284c7;
+    color: white;
+}
+ul li.active:hover{
+    background-color: #0284c7;
+    color: white;
+}
+ul li:hover{
+    background-color: #bae6fd;
+    /* color: white; */
 }
 
 .mainscreen{
-    margin-left: 18%;
+    display: flex;
+    height: calc(100vh - 50px);
 }
 
 .frames{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: none;
+    padding: 16px;
 }
 
 .frames.active{
     display: block;
+}
+
+.iframe-container {
+    flex: 1;
+    overflow: auto; /* or overflow: scroll */
 }
 
 

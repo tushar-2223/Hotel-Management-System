@@ -5,7 +5,7 @@
     --bg-text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
     --bg-box-shadow: 0px 0px 20px 6px rgba(8, 8, 15, 0.31);
 }
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
     width: .4rem;
 }
 *::-webkit-scrollbar-track{
@@ -13,7 +13,7 @@
 }
 *::-webkit-scrollbar-thumb{
     background: #0040ff;
-}
+} */
 
 body {
     /* background-color: #ffff; */
@@ -81,18 +81,18 @@ body {
 }
 
 .roomboxsuperior{
-    background-color:#2407fc8e;
+    border: 2px solid #0369a1;
 }
 
 .roomboxdelux{
-    background-color:#fa8393c8;
+    border: 2px solid #ea580c;
 }
 
 .roomboguest{
-    background-color:#19cf1069;
+    border: 2px solid #15803d;
 }
 
 .roomboxsingle{
-    background-color:#07fcdb8e;
+    border: 2px solid #be123c;
 }
 

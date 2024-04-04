@@ -5,7 +5,7 @@
     --bg-text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
     --bg-box-shadow: 0px 0px 20px 6px rgba(26, 30, 164, 0.31);
 }
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
     width: .4rem;
 }
 *::-webkit-scrollbar-track{
@@ -13,7 +13,7 @@
 }
 *::-webkit-scrollbar-thumb{
     background: #0040ff;
-}
+} */
 
 body {
     background-color: #ffff;
@@ -30,13 +30,18 @@ i{
     font-size: 20px;
 }
 
+.table {
+    font-size: 12px;
+}
+
 .searchsection{
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color:  #0a0d2d;
+    /* background-color:  #0a0d2d; */
+    background-color: white;
     position: fixed;
     z-index: 500;
 }
@@ -44,29 +49,30 @@ i{
 #search_bar{
     height: 40px;
     width: 80%;
-    border: none;
-    background-color: rgba(195, 198, 233, 0.714);
+    border: 1px solid #d1d5db;
+    /* background-color: rgba(195, 198, 233, 0.714); */
+    
     padding-left: 20px;
-    border-radius: 30px;
 }
 #adduser{
-    /* color: white; */
+    color: white;
     height: 40px;
-    background-color: rgb(0, 59, 254);
+    background-color: #0284c7;
     border: none;
     border-radius: 30px;
     padding: 0 50px;
 }
 #adduser:hover{
-    background-color: rgba(0, 17, 255, 0.733);
+    background-color: #0369a1;
 }
 
 .exportexcel{
     height: 40px;
     width: 40px;
-    background-color: rgb(47, 255, 47);
+    background-color: #16a34a;
     border: none;
     border-radius: 50%;
+    color: white;
     /* padding: 0 40px; */
 }
 
@@ -81,17 +87,18 @@ i{
     /* display: flex; */
     justify-content: center;
     /* align-items: center; */
-    background-color: #00000079;
+    background-color: #ffffff;
 }
 
 #guestdetailpanel .guestdetailpanelform{
     height: 620px;
     width: 1170px;
-    background-color: #ccdff4;
+    /* background-color: #ccdff4; */
+    border: 1px solid #d1d5db;
     border-radius: 10px;  
     /* temp */
-    position: relative;
-    top: 20px;
+    /* position: relative; */
+    /* top: 20px; */
     animation: guestinfoform .3s ease;
 }
 a{
@@ -133,7 +140,8 @@ a{
 
 .guestdetailpanelform .middle .guestinfo{
     width: 100%;
-    background-color: rgba(155, 187, 255, 0.752);
+    /* background-color: rgba(155, 187, 255, 0.752); */
+    border-right: 1px solid #d1d5db;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -142,7 +150,7 @@ a{
 .guestdetailpanelform .middle .reservationinfo{
     
     width: 100%;
-    background-color: rgba(155, 187, 255, 0.752);
+    /* background-color: rgba(155, 187, 255, 0.752); */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -184,13 +192,11 @@ a{
     color: #0a0d2d;
     margin-top: 80px;
     width: 100%;
-    height: 100vh;
 
-    /* padding bottom to add space */
-    padding-bottom: 900px;
 }
 .roombooktable thead{
-    background-color:  #0a0d2d;
+    /* background-color:  #0a0d2d; */
+    background-color: #0284c7;
     color: white;
     text-align: center;
 }
